@@ -10,150 +10,6 @@
   <meta name="author" content="David Barragan">
   <meta name="keywords" content="HTML, CSS, JavaScript">
 
-  <style>
-
-    html {
-
-      scroll-behavior: smooth;
-
-    }
-
-    body {
-
-      font-family: Arial, sans-serif;
-
-      max-width: 600px;
-
-      margin: 0 auto;
-
-      padding: 20px;
-
-    }
-
-​
-
-    header h1 {
-
-      font-size: 32px;
-
-      margin: 0;
-
-    }
-
-​
-
-    #contact {
-
-      margin-top: 20px;
-
-    }
-
-​
-
-    #contact p {
-
-      font-size: 18px;
-
-      margin-bottom: 5px;
-
-    }
-
-​
-
-    #contact span {
-
-      display: block;
-
-      margin: 5px 0;
-
-    }
-
-​
-
-    #contact strong {
-
-      font-weight: bold;
-
-    }
-
-​
-
-    #aboutme,
-
-    #studies,
-
-    #skills,
-
-    #Projects,
-
-    #completedprojects {
-
-      margin-top: 20px;
-
-    }
-
-​
-
-    h2 {
-
-      font-size: 24px;
-
-      border-bottom: 1px solid #ccc;
-
-      padding-bottom: 5px;
-
-      margin-top: 20px;
-
-    }
-
-​
-
-    ul {
-
-      list-style: none;
-
-      padding: 0;
-
-    }
-
-​
-
-    ul li {
-
-      margin: 10px 0;
-
-    }
-
-​
-
-    h3 {
-
-      font-size: 20px;
-
-      margin: 10px 0;
-
-    }
-
-​
-
-    #education p {
-
-      font-size: 16px;
-
-    }
-
-​
-
-    footer p {
-
-      font-size: 16px;
-
-      text-align: right;
-
-    }
-
-  </style>
-
   <link rel="stylesheet" href="./style.css">
   <link rel="icon" href="favicon.ico">
 
@@ -169,7 +25,7 @@
     <p>Yopal Colombia</p>
 
     <p>Profecional en desarrollo web y E-commerce</p>
-    <a href="https://www.facebook.com/profile.php?id=100086651174829"> <br>
+    <a href="https://www.facebook.com/profile.php?id=100086651174829" target="_blank"> <br>
       www.bddesarrolloweb.com 
 
       <br>
@@ -204,7 +60,7 @@
 
       <ul>
     
-        <li> <a href="./about.html#subtitle">Ir a about / subtitle</a></li>
+        <li> <a href="./about.html#subtitle" target="_blank">Ir a about / subtitle</a></li>
         <li><a href="#sobremi">Sobre mi</a></li>
         <li><a href="#estudios">Estudios</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
@@ -219,7 +75,7 @@
       src="./imagen/remplazo.jpg"
       width="200" , alt=" foto de David Barragan"> <br>
 
-      <a href="https://www.facebook.com/profile.php?id=100086651174829">
+      <a href="https://www.facebook.com/profile.php?id=100086651174829" target="_blank">
         Ver imagen
       </a>
 
@@ -244,8 +100,6 @@
     <section id="estudios">
 
       <h2>Estudios</h2>
-
-
       <p> Actual mente estudio en Academlo el mejor Bootcamp.
         de ipsum dolor sit amet consectetur adipisicing elit. Repellendus delectus labore fuga!
         Adipisci iste voluptas ratione dolore iusto itaque commodi excepturi perferendis. Provident
@@ -254,17 +108,54 @@
         suscipit quasi asperiores numquam repellendus error cumque eveniet et.
         Qui veniam dignissimos optio libero!</p>
 
-
-      <ul>
-
+      <!-- <ul>
         <li>Academlo</li>
         <li>Neetwrok Bs</li>
+      </ul>  -->
 
-      </ul>
-
-
+      <table>
+        <caption>Tabla de estudios</caption>
+        <thead>
+          <tr>
+            <th width="130">Ente Educativo</th>
+            <th width="130">Programas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <td rowspan="4">Academlo</td>
+            <td>Dsarrollo web</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+          </tr>
+          <tr>
+            <td>Html</td>
+          </tr>
+          <tr>
+            <td>Css</td>
+          </tr>
+            <td rowspan="3">Neetwrok Bs</td>
+            <td>Web Analytics</td>
+          </tr>
+          <tr>
+            <td>Web design</td>
+          </tr>
+          <tr>
+            <td>E-commerce</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="2">finalizados</th>
+          </tr>
+        </tfoot>
+      </table>
+   
+  
     </section>
-
+   
+     
+   
 
 
     <section id="habilidades">
@@ -330,7 +221,7 @@
           src="./imagen/remplazo2.png"
           width="250" , alt="imagen  de proyecto">
 
-        <a href="https://compraventamaxgold.com/"> <br>
+        <a href="https://compraventamaxgold.com/" target="_blank"> <br>
           https://compraventamaxgold.com/
 
         </a>
